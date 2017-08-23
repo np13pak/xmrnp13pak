@@ -36,7 +36,7 @@
  *
  * affine_to_cpu -  This can be either false (no affinity), or the CPU core number. Note that on hyperthreading 
  *                  systems it is better to assign threads to physical cores. On Windows this usually means selecting 
- *                  even or odd numbered cpu numbers. For Linux it will be usually the lower CPU numbers, so for a 4 
+ *                  even or odd numbered cpu numbers. For Linux it will be usually the lower CPU numbers, so for a 5 
  *                  physical core CPU you should select cpu numbers 0-3.
  *
  * On the first run the miner will look at your system and suggest a basic configuration that will work,
